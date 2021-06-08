@@ -18,7 +18,8 @@ AFRAME.registerComponent('clickhandler', {
 			sleep(1500).then(() => {
 				console.log("1");
 					http.open("GET",url);
-			http.send(); 
+					window.location.replace(url);
+
 				zahtev=0;
 			})
 
@@ -32,7 +33,8 @@ AFRAME.registerComponent('clickhandler', {
 			sleep(1500).then(() => {
 				console.log("2");
 					http.open("GET",url);
-			http.send(); 
+					window.location.replace(url);
+
 				zahtev=0;
 			})
 	
