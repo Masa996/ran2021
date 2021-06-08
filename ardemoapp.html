@@ -14,11 +14,11 @@ AFRAME.registerComponent('clickhandler', {
     if (document.querySelector('#marker1').object3D.visible == true && zahtev==0) {	
 	zahtev=1;
 	const http=new XMLHttpRequest();
-	const url='https://masa996.github.io/ran2021/pika.html';
+	const url1='https://masa996.github.io/ran2021/pika.html';
 			sleep(1500).then(() => {
 				console.log("1");
-					http.open("GET",url);
-					window.location.replace(url);
+					http.open("GET",url1);
+					window.location.replace(url1);
 
 				zahtev=0;
 			})
@@ -28,12 +28,12 @@ AFRAME.registerComponent('clickhandler', {
     
 	if (document.querySelector('#marker2').object3D.visible == true && zahtev==0) {	
 	zahtev=1;
-	const url='https://masa996.github.io/ran2021/sonic.html';		 	
+	const url2='https://masa996.github.io/ran2021/sonic.html';		 	
 	
 			sleep(1500).then(() => {
 				console.log("2");
-					http.open("GET",url);
-					window.location.replace(url);
+					http.open("GET",url2);
+					window.location.replace(url2);
 
 				zahtev=0;
 			})
