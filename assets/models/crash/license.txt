@@ -1,0 +1,11 @@
+Model Information:
+* title:	Crash (skylanders)
+* source:	https://sketchfab.com/3d-models/crash-skylanders-4cb51403e8164b5b8aaa774177fd7b03
+* author:	MatiasH290 (https://sketchfab.com/matias029)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Crash (skylanders)" (https://sketchfab.com/3d-models/crash-skylanders-4cb51403e8164b5b8aaa774177fd7b03) by MatiasH290 (https://sketchfab.com/matias029) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
