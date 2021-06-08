@@ -28,11 +28,12 @@ AFRAME.registerComponent('clickhandler', {
     
 	if (document.querySelector('#marker2').object3D.visible == true && zahtev==0) {	
 	zahtev=1;
+	const http2=new XMLHttpRequest();
 	const url2='https://masa996.github.io/ran2021/sonic.html';		 	
 	
 			sleep(1500).then(() => {
 				console.log("2");
-					http.open("GET",url2);
+					http2.open("GET",url2);
 					window.location.replace(url2);
 
 				zahtev=0;
