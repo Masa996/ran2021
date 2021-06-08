@@ -14,7 +14,7 @@ AFRAME.registerComponent('clickhandler', {
     if (document.querySelector('#marker1').object3D.visible == true && zahtev==0) {	
 	zahtev=1;
 	const http=new XMLHttpRequest();
-	const url='https://en.wikipedia.org/wiki/Pikachu';
+	const url='pika.html';
 			sleep(1500).then(() => {
 				console.log("1");
 					http.open("GET",url);
@@ -27,7 +27,7 @@ AFRAME.registerComponent('clickhandler', {
     
 	if (document.querySelector('#marker2').object3D.visible == true && zahtev==0) {	
 	zahtev=1;
-	const url='https://en.wikipedia.org/wiki/Sonic_the_Hedgehog';		 	
+	const url='sonic.html';		 	
 	
 			sleep(1500).then(() => {
 				console.log("2");
