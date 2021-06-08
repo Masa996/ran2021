@@ -59,7 +59,7 @@ class World {
   }
 
   async init() {
-	var paths=['https://github.com/Masa996/ran2021/blob/main/assets/models/sonic/scene.gltf','https://github.com/Masa996/ran2021/blob/main/assets/models/pikachu/pikachu.gltf','https://masa996.github.io/ran2021/main/assets/models/crash/scene.gltf'];   
+	var paths=['https://github.com/Masa996/ran2021/blob/main/assets/models/sonic/scene.gltf','https://github.com/Masa996/ran2021/blob/main/assets/models/pikachu/pikachu.gltf','https://masa996.github.io/ran2021/assets/models/crash/scene.gltf'];   
 	var positions=[0,0,2.5, 
 	7.5,0,-10,
 	0,-2.5,-10];
